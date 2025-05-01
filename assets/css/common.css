@@ -1,0 +1,55 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.btn-fixed .btn::after, .btn-fixed .btn::before,
+.sc-news .group-head .tab-item .title .tag::before,
+.sc-widget .group-bottom .open-main::before,
+.sc-widget .group-bottom .open-main::after,
+.sc-widget .group-vibe .content-area .icon::before,
+.sc-widget .group-vibe .btn-refresh .text::after,
+.sc-widget .group-vibe .vibe-title::before,
+.sc-stock .group-info .col-right .icon::after,
+.sc-stock .group-info .col-right .status::before,
+.sc-stock .group-info .col-left .type-up::before,
+.sc-stock .group-header .btn::after,
+.sc-stock .group-header .icon::after,
+.sc-weather .group-header .link::before,
+.sc-feed .group-content .sub-content .btn::before,
+#footer .notice-area .link-all::after,
+.sc-shopping .group-control .control-area .btn::before,
+.sc-login .link-login::before,
+.sc-news .group-control .control-area .btn::before,
+.sc-news .group-control .view-area .btn-list::before,
+.sc-news .group-control .view-area .btn-thumb::before,
+.sc-news .group-issue .btn-all::after,
+#header .search-area .btn-keyboard::before,
+#header .search-area .btn-auto::before,
+#header .util-area [class*="btn-"]::before,#header .nav-area .icon::after,#header .nav-area .icon::before{
+    background-image: url(../images/sp1.png);
+    background-repeat: no-repeat;
+    background-size: 452px auto;
+}
+
+.sc-shopping .group-content .col-left .menu-item .paylist::before,
+.sc-shopping .group-content .col-left .menu-item .mycart::before,
+.sc-shopping .group-content .col-left .menu-item .review::before,
+.sc-shopping .group-content .col-left .menu-item .home::before{
+    background-image: url(../images/sp3.png);
+    background-repeat: no-repeat;
+    background-size: 258px auto;
+}
+
+
+
+.sc-weather .group-info .col-right .icon::before,
+.sc-weather .group-info .col-left .weather-info .icon::before{
+    background-image: url(../images/spw.png);
+    background-repeat: no-repeat;
+    background-size: 641px auto;
+}
